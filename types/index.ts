@@ -139,6 +139,8 @@ export interface HowItWorksStep {
   icon: "phone" | "pin" | "check";
   title: string;
   description: string;
+  linkText: string
+linkUrl: string,
 }
 
 export interface HowItWorksSectionData {

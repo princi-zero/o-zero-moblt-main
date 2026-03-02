@@ -1,7 +1,7 @@
 import type { NavbarData } from "@/types";
 
 export const navbarData: NavbarData = {
-  logoSrc: "/images/Zero Icon.png",
+  logoSrc: "/images/Zero Icon.webp",
   logoAlt: "Zero Logo",
   links: [
     { label: "Home",      href: "/" },

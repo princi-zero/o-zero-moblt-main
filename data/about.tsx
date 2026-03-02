@@ -36,11 +36,11 @@ export const teamSectionData: TeamSectionData = {
   heading: "The Minds Behind the Mission",
   watermarkText: "One Team",
   members: [
-    { id: 1, name: "Abhinav Dantuluri", role: "COS",      image: { src: "/images/about/section4-cos.png", alt: "Abhinav Dantuluri" }, linkedinHref: "https://in.linkedin.com/in/abhinav-dantuluri-a4a38a119" },
-    { id: 2, name: "Vijay Ganagam",     role: "CEO",      image: { src: "/images/about/section4-d1.png",  alt: "Vijay Ganagam"     }, linkedinHref: "https://in.linkedin.com/in/vijay-ganagam" },
-    { id: 3, name: "Alfred Lazarus",    role: "CVO",      image: { src: "/images/about/section4-d2.png",  alt: "Alfred Lazarus"    }, linkedinHref: "https://in.linkedin.com/in/alfred-jerome-lazarus" },
-    { id: 4, name: "Rishi Dixit",       role: "Director", image: { src: "/images/about/section4-d3.png",  alt: "Rishi Dixit"       }, linkedinHref: "https://in.linkedin.com/in/riishidixit" },
-    { id: 5, name: "Manish Kumar",      role: "CTO",      image: { src: "/images/about/section4-cto.png", alt: "Manish Kumar"      }, linkedinHref: "https://in.linkedin.com/in/manish-kumar-6a2371349" },
+    { id: 1, name: "Vijay Ganagam",     role: "CEO",      image: { src: "/images/about/section4-d1.png",  alt: "Vijay Ganagam"     }, linkedinHref: "https://in.linkedin.com/in/vijay-ganagam" },
+    { id: 2, name: "Alfred Lazarus",    role: "CVO",      image: { src: "/images/about/section4-d2.png",  alt: "Alfred Lazarus"    }, linkedinHref: "https://in.linkedin.com/in/alfred-jerome-lazarus" },
+    { id: 3, name: "Abhinav Dantuluri", role: "COS",      image: { src: "/images/about/section4-cos.png", alt: "Abhinav Dantuluri" }, linkedinHref: "https://in.linkedin.com/in/abhinav-dantuluri-a4a38a119" },
+    { id: 4, name: "Manish Kumar",      role: "CTO",      image: { src: "/images/about/section4-cto.png", alt: "Manish Kumar"      }, linkedinHref: "https://in.linkedin.com/in/manish-kumar-6a2371349" },
+    { id: 5, name: "Rishi Dixit",       role: "Director", image: { src: "/images/about/section4-d3.png",  alt: "Rishi Dixit"       }, linkedinHref: "https://in.linkedin.com/in/riishidixit" },
   ],
 };
 

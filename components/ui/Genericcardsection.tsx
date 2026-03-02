@@ -8,6 +8,8 @@ export interface CardItem {
   title: string;
   description: string;
   icon: ReactNode;
+  linkText?: string;
+  linkUrl?: string;
 }
 
 export interface GenericCardSectionProps {
@@ -86,6 +88,19 @@ export default function GenericCardSection({
                 </h3>
                 <p className={`text-sm leading-relaxed ${descColor}`}>
                   {card.description}
+                  {card.linkText && card.linkUrl && (
+                    <>
+                      {" "}
+                      <a
+                        href={card.linkUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-300 underline"
+                      >
+                        {card.linkText}
+                      </a>
+                    </>
+                  )}
                 </p>
               </div>
             </div>

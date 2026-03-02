@@ -39,13 +39,10 @@ export default function Footer({ data }: { data: FooterData }) {
             <Image
               src={data.logoSrc}
               alt={data.logoAlt}
-              width={40}
-              height={40}
-              className="object-contain"
+              width={120}
+              height={120}
+              className="object-fill"
             />
-            <span className="text-2xl font-light text-gray-900 tracking-wide">
-              zero
-            </span>
           </div>
         </div>
 

@@ -25,7 +25,7 @@ const CheckIcon = () => (
 
 const iconMap: Record<HowItWorksStep["icon"], React.ReactNode> = {
   phone: <PhoneIcon />,
-  pin:   <PinIcon />,
+  pin: <PinIcon />,
   check: <CheckIcon />,
 };
 
@@ -56,6 +56,8 @@ export default function HowItWorksSection({ data }: HowItWorksSectionProps) {
     title: step.title,
     description: step.description,
     icon: buildStepIcon(step.icon, step.id),
+    linkText: step.linkText, // optional
+    linkUrl: step.linkUrl,   // optional
   }));
 
   return (
