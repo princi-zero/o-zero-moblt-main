@@ -95,11 +95,11 @@ export default function ApplyPage() {
                 />
                 <span className="text-xs text-gray-500">
                   I agree to the{" "}
-                  <Link href="/privacy" className="text-[#1a46c4] underline">
+                  <Link href="https://zeromoblt.com/terms" className="text-[#1a46c4] underline">
                     Privacy Policy
                   </Link>{" "}
                   and{" "}
-                  <Link href="/terms" className="text-[#1a46c4] underline">
+                  <Link href="https://zeromoblt.com/terms" className="text-[#1a46c4] underline">
                     Terms of Service
                   </Link>
                 </span>

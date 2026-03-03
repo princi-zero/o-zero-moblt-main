@@ -3,10 +3,10 @@ import type { HeroData, ProblemSectionData, ServiceOverviewData, HowItWorksSecti
 export const heroData: HeroData = {
   socialProof: {
     avatars: [
-      { src: "/images/home/section1-student1.png", alt: "Parent 1" },
-      { src: "/images/home/section1-student2.png", alt: "Parent 2" },
-      { src: "/images/home/section1-student3.png", alt: "Parent 3" },
-      { src: "/images/home/section1-student4.png", alt: "Parent 4" },
+      { src: "/images/home/section7pc3.png", alt: "Parent 1" },
+      { src: "/images/home/section7pc.png", alt: "Parent 2" },
+      { src: "/images/home/section7pc1.png", alt: "Parent 3" },
+      { src: "/images/home/section7pc2.png", alt: "Parent 4" },
     ],
     text: "Trusted by 1,000+ parents.",
   },
@@ -176,14 +176,14 @@ export const testimonialSectionData: TestimonialSectionData = {
         id: 2,
         quote: "Zero MobIt has completely changed our daily routine. The fixed timings and safe arrival alerts give us real peace of mind.",
         name: "Vikrant",
-        role: "Parent of Grade 5 Student",
+        role: "Father of Grade 5 Student",
         avatar: { src: "/images/home/section7pc1.png", alt: "Vikrant" },
       },
       {
         id: 3,
         quote: "We track every ride and review the history anytime. The transparency of the app is what we like most.",
         name: "Neha",
-        role: "Parent of Two Students",
+        role: "Mother of Two Students",
         avatar: { src: "/images/home/section7pc2.png", alt: "Neha" },
       },
     ],
